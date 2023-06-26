@@ -101,15 +101,15 @@ def copy_folders(source_drive, destination_drive):
 # Example usage
 
 
-source_drive = r'F:\Media\TV Shows'
+source_drive = r'E:\Media\TV Shows'
 destination_drive = r'D:\Media\TV'
 copy_folders(source_drive, destination_drive)
 
-source_drive = r'F:\Media\Anime'
+source_drive = r'E:\Media\Anime'
 destination_drive = r'D:\Media\Anime'
 copy_folders(source_drive, destination_drive)
 
-source_drive = r'F:\Media\Movies'
+source_drive = r'E:\Media\Movies'
 destination_drive = r'D:\Media\Movies'
 copy_folders(source_drive, destination_drive)
 sys.stdout.close()
