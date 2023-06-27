@@ -14,7 +14,7 @@ except:
     O_BINARY = 0
 READ_FLAGS = os.O_RDONLY | O_BINARY
 WRITE_FLAGS = os.O_WRONLY | os.O_CREAT | os.O_TRUNC | O_BINARY
-BUFFER_SIZE = 128*1024
+BUFFER_SIZE = 4 * 1024 * 1024  # Increased buffer size to 4 MB
 
 
 def copyfile(src, dst):
